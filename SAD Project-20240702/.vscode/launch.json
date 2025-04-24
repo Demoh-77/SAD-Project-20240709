@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MainLibrary",
+            "request": "launch",
+            "mainClass": "mainlibrary.MainLibrary",
+            "projectName": "SAD Project-20240702_87b2253c"
+        },
+        {
+            "type": "java",
+            "name": "MigratePlainPassword",
+            "request": "launch",
+            "mainClass": "mainlibrary.MigratePlainPassword",
+            "projectName": "SAD Project-20240702_87b2253c",
+            "env": {
+                "DB_USER": "root",
+                "DB_PASSWORD": "ZutAexi+@zone775"
+            }
+        },
+        {
+            "type": "java",
+            "name": "Launch MainLibrary with DB Env Vars",
+            "request": "launch",
+            "mainClass": "mainlibrary.MainLibrary",
+            "projectName": "SAD Project-20240702",
+            "env": {
+                "DB_URL": "jdbc:mysql://localhost:3306/library?autoReconnect=true&useSSL=false",
+                "DB_USER": "root",
+                "DB_PASSWORD": "ZutAexi+@zone775"
+            }
+        }
+    ]
+}
